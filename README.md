@@ -1,3 +1,5 @@
+# Project 3: Snake Game
+
 # Java-Snake-Game
 Java Snake game source code
 
