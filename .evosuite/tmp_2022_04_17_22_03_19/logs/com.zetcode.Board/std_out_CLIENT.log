@@ -1,0 +1,76 @@
+* Starting client
+* Connecting to master process on port 18991
+* Analyzing classpath: 
+  - C:\Users\budi.han\Documents\repos\Java-Snake-Game\target\classes
+  - C:\Users\budi.han\.m2\repository\junit\junit\4.12\junit-4.12.jar
+  - C:\Users\budi.han\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.zetcode.Board
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 22:03:29.549 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\budi.han\Documents\repos\Java-Snake-Game\.evosuite\evosuite-seeds\com.zetcode.Board.seed
+* Loaded 0 tests from C:\Users\budi.han\Documents\repos\Java-Snake-Game\.evosuite\evosuite-seeds\com.zetcode.Board.seed
+* Total number of test goals: 
+  - Line 117
+  - Branch 64
+  - Exception 0
+  - MutationFactory 768
+  - Output 0
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 64
+* Using seed 1650225802834
+* Starting evolution
+* Search finished after 91s and 411 generations, 135717 statements, best individual has fitness: 341.68919973908686
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 68%
+* Total number of goals: 117
+* Number of covered goals: 80
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 47%
+* Total number of goals: 64
+* Number of covered goals: 30
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 50%
+* Total number of goals: 2
+* Number of covered goals: 1
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 73%
+* Total number of goals: 768
+* Number of covered goals: 564
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 75%
+* Total number of goals: 4
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 75%
+* Total number of goals: 4
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 47%
+* Total number of goals: 64
+* Number of covered goals: 30
+* Generated 5 tests with total length 20
+* Resulting test suite's coverage: 73% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 6%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'Board_ESTest' to C:\Users\budi.han\Documents\repos\Java-Snake-Game\.evosuite\tmp_2022_04_17_22_03_19\tests
+* Done!
+

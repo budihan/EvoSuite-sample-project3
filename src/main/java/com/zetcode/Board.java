@@ -167,7 +167,7 @@ public class Board extends JPanel implements ActionListener {
             }
         }
 
-        if (y[0] >= B_HEIGHT) {
+        if (y[0] > B_HEIGHT) {
             inGame = false;
         }
 
@@ -197,7 +197,6 @@ public class Board extends JPanel implements ActionListener {
         apple_y = ((r * DOT_SIZE));
     }
 
-    @Override
     public void actionPerformed(ActionEvent e) {
 
         if (inGame) {
